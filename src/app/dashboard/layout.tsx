@@ -26,17 +26,17 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         },
         {
             label: "New Offer",
-            href: "/dashboard/new-offer",
+            href: "/new-offer",
             icon: <IconTagPlus className="text-neutral-700 dark:text-neutral-200 h-6 w-6 flex-shrink-0" />
         },
         {
             label: "Profile",
-            href: "/dashboard/profile",
+            href: "/profile",
             icon: <IconUserBolt className="text-neutral-700 dark:text-neutral-200 h-6 w-6 flex-shrink-0" />,
         },
         {
             label: "Settings",
-            href: "/dashboard/settings",
+            href: "/settings",
             icon: <IconSettings className="text-neutral-700 dark:text-neutral-200 h-6 w-6 flex-shrink-0" />,
         },
         {
